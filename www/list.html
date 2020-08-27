@@ -1,0 +1,23 @@
+<!-- リスト画面 -->
+<ons-page id="list">
+    <!-- ツールバー -->
+    <ons-toolbar>
+        <div class="left">
+            <ons-toolbar-button icon="ion-navicon, material:md-menu"></ons-toolbar-button>
+        </div>
+
+        <div class="center">TODOリスト</div>
+
+        <div class="right">
+        </div>
+    </ons-toolbar>
+
+    <!-- TODOリスト -->
+    <ons-list id="listView">
+    </ons-list>
+
+    <!-- タスク追加アイコン -->
+    <ons-fab position="bottom right" onclick="createInsertDialog()">
+        <ons-icon icon="md-plus"></ons-icon>
+    </ons-fab>
+</ons-page>
